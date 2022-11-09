@@ -1,0 +1,17 @@
+ <Router>
+        <Switch>
+          <Route path="/login">
+            <Login />
+          </Route>
+          <Route path="/">
+            <WithLayouts />
+          </Route>
+        </Switch>
+      </Router>
+      const [token, settoken] = useState(false);
+      if (!token) {
+        return <Redirect to='/login'  />;
+      } const [token, settoken] = useState(false);
+      if (!token) {
+        return <Redirect to='/login'  />;
+      }

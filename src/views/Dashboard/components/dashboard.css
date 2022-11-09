@@ -1,0 +1,49 @@
+.d-card > div {
+  /* border: 0.1px solid black; */
+}
+.d-card {
+  width: 150px;
+  height: 75px;
+  border-radius: 15px;
+  background-color: yellowgreen;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-weight: 600;
+  /* box-shadow: 10px black; */
+}
+.d-card .d-top {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.d-card .d-top .amount {
+    font-size: 20px;
+}
+.d-card .d-bottom {
+  width: 90%;
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.d-card .d-bottom .line2 {
+  width: 100%;
+  /* text-align: end;
+     */
+  padding-left: 10px;
+}
+.d-card .d-bottom .line2_icon {
+  width: 100%;
+  text-align: end;
+}
+.d-card .d-bottom .line2_icon svg {
+  font-weight: 700;
+}

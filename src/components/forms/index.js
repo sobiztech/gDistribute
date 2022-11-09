@@ -1,0 +1,9 @@
+export { default as FormInputText } from "./FormInputText";
+export { default as FormInputSelect } from "./FormInputSelect";
+export { default as FormInputDate } from "./FormInputDate";
+export { default as FormInputNumber } from "./FormInputNumber";
+export { default as FormInputPw } from "./FormInputPw";
+export { default as FormInputLongText } from "./FormInputLongText";
+export { default as FormInputEmail } from "./FormInputEmail";
+export { default as FormInputAutoComplete } from "./FormInputAutoComplete";
+export { default as FormInputSwitch } from "./FormInputSwitch";
